@@ -22,11 +22,11 @@ html {
 }
 
 body {
-  background: -webkit-linear-gradient(90deg, #5D4157 10%, #A8CABA 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #5D4157 10%, #A8CABA 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #5D4157 10%, #A8CABA 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #5D4157 10%, #A8CABA 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #5D4157 10%, #A8CABA 90%); /* W3C */
+  background: -webkit-linear-gradient(90deg, #A8CABA 10%, #5D4157 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #A8CABA 10%, #5D4157 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #A8CABA 10%, #5D4157 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #A8CABA 10%, #5D4157 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #A8CABA 10%, #5D4157 90%); /* W3C */
 }
 
 .navbar-default {
@@ -41,8 +41,12 @@ body {
     text-transform: uppercase;
     font-weight: 700;
   }
-  .navbar-link {
-    color: rgb(48, 181, 199);
+  ul {
+    li {
+      .navbar-link {
+      color: white;
+      }
+    }
   }
 }
 
@@ -58,7 +62,29 @@ body {
     margin: 0;
     font-size: 18px;
     span {
-      color: rgb(48, 181, 199);
+      color: rgb(27, 121, 155);
     }
+  }
+}
+
+#workout {
+  h2 {
+    font-weight: 100;
+    color: white;
+  }
+  h3 {
+    font-size: 18px;
+    color: rgb(27, 121, 155);
+  }
+}
+
+#exercises {
+  h2 {
+    font-weight: 100;
+    color: white;
+  }
+  h3 {
+    font-size: 18px;
+    color: rgb(27, 121, 155);
   }
 }
